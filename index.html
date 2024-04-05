@@ -48,5 +48,65 @@
         <img src="img\black_bg.jpg" alt="coding dojo img">
         <video src="img\whiteboard.mp4" controls></video>
         <video src="img\Monika.mp4" autoplay loop muted></video>
+        <div>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <input type="number" name="age">
+        </div>
+        <div>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <input type="color" name="text_color">
+        </div>
+        <div>
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="bold"><strong>Negrita</strong></label>
+        </div>
+        <div>
+            <input type="radio" name="font" value="normal" id="normal">
+            <label for="normal">Normal</label>
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Estoy de acuerdo</label>
+        </div>
+        <div>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <select name="snack">
+                <option>Almonds</option>
+                <option>Cheese and Crackers</option>
+                <option>Pita and Hummus</option>
+                <option>Pears</option>
+            </select>
+        </div>
+        
+        <input type="submit" value="Button Text" >
+
+        <form action="/process" method="post">
+            <div>
+                <label>Nombre: </label>
+                <input type="text" name="name" 
+                placeholder="Your name..." >
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="text" name="email" 
+                placeholder="Your email..." >
+            </div>
+            <div>
+                <input type="checkbox" name="offers" 
+                id="offers" checked >
+                <label for="offers">Me gustaría 
+                recibir correos con ofertas.</label>
+            </div>
+            <input type="submit" value="Sign up" >
+        </form>
     </body>
 </html>

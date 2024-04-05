@@ -1,0 +1,4 @@
+txt seleccionado -> alt+up      mueve el txt hacia arriba 
+txt seleccionado -> alt+down    mueve el txt hacia abajo
+txt seleccionado -> ctr+k,ctr+c comenta el txt seleccionado
+en html se inicia con !+tab
