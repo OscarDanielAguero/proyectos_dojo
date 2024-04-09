@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(99, 99, 99) !important;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+h2{
+    background-color: mediumseagreen;
+    text-decoration: underline;
+}
+p{
+    background-color: chocolate;
+    text-align: center;
+    color: whitesmoke;
+}
+.colores{
+    background-color: mediumvioletred;
+}
+#color{
+    background-color: blue;
+}
+* {
+    outline: 1px solid red;
+}
+h6{
+    text-decoration: line-through;
+}
