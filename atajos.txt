@@ -2,3 +2,11 @@ txt seleccionado -> alt+up      mueve el txt hacia arriba
 txt seleccionado -> alt+down    mueve el txt hacia abajo
 txt seleccionado -> ctr+k,ctr+c comenta el txt seleccionado
 en html se inicia con !+tab
+Float, clear y overflow
+Hay otras situaciones en las que los elementos no tienen sus márgenes colapsados:
+
+elementos anidados con float
+elementos absolutamente posicionadoS
+elementos de bloque y en línea
+elementos con propiedad de overflow configurada en cualquier cosa menos visible (no colapsan los márgenes con sus hijos).
+elementos con clear (no contraen sus márgenes superiores con el margen inferior de su bloque padre).
