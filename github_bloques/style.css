@@ -1,0 +1,30 @@
+.grupo1, .grupo2, .grupo3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.grupo1 img, .grupo2 img, .grupo3 img{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    margin: 10px;
+}
+.grupo1 {
+    background-color: mediumseagreen;
+}
+.grupo2 {
+    background-color: mediumvioletred;
+}
+
+h1{
+    text-align: center;
+    color: rgb(54, 57, 73);
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(54, 57, 73);
+}
