@@ -1,0 +1,38 @@
+/* Estilos para la barra de búsqueda */
+.search-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos adicionales para mejorar la apariencia */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .search-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
