@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Profile Page</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <title>Pagina Perfil</title>
+        <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
@@ -41,14 +41,16 @@
                 <!-- user info card -->
                 <div class="card user-card">
                     <div class="card-header" onmouseenter="cambiarFondo(this)" onmouseout="removerFondo(this)">
-                        <img id="imagenJane" src="images/jane-m.jpg" alt="jane" class="avatar-m">
+                        <img id="imagenUser" src="./img/user-circle.png" alt="user" class="avatar-m">
                     </div>
                     <div class="card-body">
-                        <h1 class="cardName" id="userName">   Jane Doe   </h1>
-                        <h3><img src="icons/map-marker.png" alt="pin" class="icon-s"> Seattle</h3>
+                        <h1 class="cardName" id="userName">  Oscar   </h1>
+                        <h3><img src="img/map-marker.png" alt="pin" class="icon-s"> Seattle</h3>
                         <p>Developer | Engineer | Problem Solver<br>
                         Master of shadows and the Internet!</p>
-                        <p><a href="#" ><img src="icons/gear.png" alt="gear" class="icon-s"> edit profile</a></p>
+                        <!-- <p><a href="#" ><img src="img/gear.png" alt="gear" class="icon-s"> edit profile</a></p> -->
+                        <p><a href="#" onclick="editProfileName()"><img src="img/gear.png" alt="gear" class="icon-s"> edit profile</a></p>
+
                     </div>
                 </div>
 
@@ -78,22 +80,22 @@
                     <ul class="card-list">
                         <li class="card-list-item">
                             <span>
-                                <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
+                                <img src="./img/user-circle.png" alt="todd" class="avatar-s">
                                 Todd E
                             </span>
                             <span class="buttons">
-                                <img onclick="agregarConexion(this)" src="icons/accept-circle.png" alt="accept" class="icon">
-                                <img onclick="removerConexion(this)" src="icons/close-circle.png" alt="close" class="icon">
+                                <img onclick="agregarConexion(this)" src="img/accept-circle.png" alt="accept" class="icon1">
+                                <img onclick="removerConexion(this)" src="img/close-circle.png" alt="close" class="icon2">
                             </span>
                         </li>
                         <li class="card-list-item">
                             <span>
-                                <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
+                                <img src="./img/user-circle.png" alt="phil" class="avatar-s">
                                 Phil E
                             </span>
                             <span class="buttons">
-                                <img onclick="agregarConexion(this)" src="icons/accept-circle.png" alt="accept" class="icon">
-                                <img  onclick="removerConexion(this)" src="icons/close-circle.png" alt="close" class="icon">
+                                <img onclick="agregarConexion(this)" src="img/accept-circle.png" alt="accept" class="icon1">
+                                <img onclick="removerConexion(this)" src="img/close-circle.png" alt="close" class="icon2">
                             </span>
                         </li>
                     </ul>
@@ -107,19 +109,19 @@
                     </div>
                     <ul class="card-list" id="myConnections">
                         <li class="card-list-item start">
-                            <img src="images/adrien-s.jpg" alt="adrien" class="avatar-s">
+                            <img src="./img/user-circle.png" alt="adrien" class="avatar-s">
                             Adrien D
                         </li>
                         <li class="card-list-item start">
-                            <img src="images/anne-s.jpg" alt="anne" class="avatar-s">
+                            <img src="./img/user-circle.png" alt="anne" class="avatar-s">
                             Anne J
                         </li>
                         <li class="card-list-item start">
-                            <img src="images/alayne-s.jpg" alt="alayne" class="avatar-s">
+                            <img src="./img/user-circle.png" alt="alayne" class="avatar-s">
                             Alayne T
                         </li>
                         <li class="card-list-item start">
-                            <img src="images/arry-s.jpg" alt="arry" class="avatar-s">
+                            <img src="./img/user-circle.png" alt="arry" class="avatar-s">
                             Arry Y
                         </li>
                     </ul>
@@ -130,6 +132,6 @@
 
             </div>
         </div> 
-        <script src="./js/script.js"></script>   
+        <script src="./script.js"></script>   
     </body>
 </html>

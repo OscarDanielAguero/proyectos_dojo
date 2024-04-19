@@ -119,10 +119,6 @@ body {
     padding: 5px;
 }
 
-.icon-s {
-    height: 20px;
-}
-
 a {
     color: #3a81e6;
 }
@@ -158,16 +154,22 @@ a {
     margin-right: 10px;
 }
 
-.icon {
+.icon1-s {
+    height: 20px;
+}
+.icon2{
+    margin-left: 20px;
+}
+.icon1, .icon2 {
     height: 35px;
 }
 
-.icon, .btn {
+.icon1, .icon2, .btn {
     cursor: pointer;
 }
 
-.icon:last-child {
-    margin-right: 0;
+.icon1:last-child {
+    margin-right: 10px;
 }
 
 .badge {
