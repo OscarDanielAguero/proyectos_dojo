@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title" onclick="muestraTitulo(this)">DojoWheater</h1>
+        <ul class="nav-links">
+            <li><a href="#" onclick="cargarInforme('Encarnación')">Encarnación</a></li>
+            <li><a href="#" onclick="cargarInforme('Asunción')">Asunción</a></li>
+            <li><a href="#" onclick="cargarInforme('Ciudad del Este')">Ciudad del Este</a></li>
+        </ul>
+    </div>
+
+    <div class="contenedor">
+        <div class="cont">
+            <h2>Cambyreta</h2>
+        </div>
+        <div class="cont">
+            <label for="selectTemp">Mostrar temperatura en</label>
+            <select id="selectTemp">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+                <option value="kelvin">°K</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="weather-container">
+            <div class="weather-card" id="weather1">
+                <h2 id="location1">Hoy</h2>
+                <img src="./assets/some_clouds.png" alt="some_clouds">
+                <p>Some clouds</p>
+                <div class="temperaturas">
+                    <span class="temperatura-izquierda">21°</span>
+                    <span class="temperatura-derecha">16°</span>
+                </div>
+            </div>
+            <div class="weather-card" id="weather2">
+                <h2 id="location2">Mañana</h2>
+                <img src="./assets/some_rain.png" alt="some_rain">
+                <p>Some rain</p>
+                <div class="temperaturas">
+                    <span class="temperatura-izquierda">18°</span>
+                    <span class="temperatura-derecha">12°</span>
+                </div>
+            </div>
+            <div class="weather-card" id="weather3">
+                <h2 id="location3">Domingo</h2>
+                <img src="./assets/some_sun.png" alt="some_sun">
+                <p>Some sun</p>
+                <div class="temperaturas">
+                    <span class="temperatura-izquierda">24°</span>
+                    <span class="temperatura-derecha">18°</span>
+                </div>
+            </div>
+            <div class="weather-card" id="weather4">
+                <h2 id="location4">Lunes</h2>
+                <img src="./assets/some_clouds.png" alt="some_clouds">
+                <p>Some clouds</p>
+                <div class="temperaturas">
+                    <span class="temperatura-izquierda">20°</span>
+                    <span class="temperatura-derecha">15°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
