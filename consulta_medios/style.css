@@ -1,0 +1,38 @@
+.navbtn{
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 480px){
+    /* obtendremos estos estilos solo si el dispositivo tiene una pantalla con un ancho de 480px o menos */
+    .navbtn {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .navbtn {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .navbtn {
+        background-color: red;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        /* no imprimirá nada con la clase .sm-0 si el anchho de la pantalla es menor a 480px */
+        display: none;
+     }
+}
+@media only screen and (min-width: 481px){
+    .med-1 {
+        /* todo de clase.med-1 obtendrá el 25% del ancho disponible, si el ancho de la pantalla es mayor a 480px */
+        width: 25%;
+    }
+}
