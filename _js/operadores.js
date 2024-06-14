@@ -20,7 +20,7 @@ console.log(resultado);
 let expresion = !((4 * 5) / 2 + 7 > 12 / 3 * 7 % 6 && 25 / 5 === 3 + 2);
                 // !(20 / 2 + 7 > 12 / 3 * 7 % 6 && 25 / 5 === 3 + 2)
                 //  !(10 + 7 > 4 && 5 === 3 + 2)
-                //   !(17 > 5 && 5 === 5)
+                //   !(17 > 4 && 5 === 5)
                 //    !(true && 5 === 5)
                 //     !(true && true)   
                 //         !true
@@ -29,6 +29,3 @@ console.log(expresion);
 
 let expresion2 = 5 === "5";
 console.log(expresion2);
-
-
-                
